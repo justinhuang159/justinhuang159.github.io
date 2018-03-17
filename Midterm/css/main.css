@@ -1,0 +1,50 @@
+body, html {
+    height: 100%;
+	margin: 0;
+}
+
+.container { 
+    background-image: url("../img/road.jpeg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+*/
+
+.container h2{
+	font-size: 120px;
+	font-family: 'Stay Wildy Personal Use Only';
+	color: white;
+	text-align: center;
+	padding-top: 250px;
+	margin: 0;
+	/*-webkit-animation: fadein 3s;*/
+	cursor: default;
+}
+
+.container a{
+	text-decoration: none;
+	color: white;
+	transition: 1.5s;
+}
+
+.container a:hover{
+	color: #ffd3a5;
+	transform: scale(1.5);
+}
+
+.container h3{
+	text-align: center;
+	color: white;
+	margin: 0;
+	font-size: 20px;
+	font-family: 'Roboto Condensed', sans-serif;
+	/*-webkit-animation: fadein 3s;*/
+	cursor: default;
+}
