@@ -11,16 +11,17 @@ body, html {
 }
 
 .content img{
-	display: inline-block;
+	float: left;
 	width: auto;
 	height: 300px;
 	/*padding-left: 50px;
 	margin-top: 150px;*/
 	border-radius: 10%;
+	margin: 30px;
 }
 
 .content p{
+	margin: 50px;
 	padding-left: 50px;
-	display: inline-block;
 	color: white;
 }

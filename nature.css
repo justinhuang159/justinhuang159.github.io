@@ -1,0 +1,25 @@
+body, html{
+	margin: 0;
+	height: 100%;
+	background-color: #cccccc;
+}
+
+.container {
+	padding-top: 100px;
+}
+
+.row {
+	padding-bottom: 40px;
+}
+
+.column {
+	width: 33.33%;
+	text-align: center;
+	float: left;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}

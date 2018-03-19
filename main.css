@@ -31,13 +31,12 @@ body, html {
 .container a{
 	text-decoration: none;
 	color: white;
-	transition: 1.5s;
 }
 
-.container a:hover{
+/*.container a:hover{
 	color: #ffd3a5;
 	transform: scale(1.5);
-}
+}*/
 
 .container h3{
 	text-align: center;
