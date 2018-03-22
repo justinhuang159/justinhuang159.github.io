@@ -48,8 +48,3 @@ input[type=submit]:hover {
 	padding-right: 300px;
 }
 
-/* Create two columns that float next to eachother */
-.column {
-    margin-top: 6px;
-    padding: 20px;
-}

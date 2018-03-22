@@ -11,18 +11,17 @@ body, html {
     background-size: cover;
 }
 
-/*@-webkit-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+@font-face{
+	font-family: 'myFont';
+	src: url(StayWildy.ttf);
 }
-*/
 
 .container h2{
-	font-size: 120px;
-	font-family: 'Stay Wildy Personal Use Only';
+	font-size: 125px;
+	font-family: 'myFont';
 	color: white;
 	text-align: center;
-	padding-top: 250px;
+	padding-top: 225px;
 	margin: 0;
 	/*-webkit-animation: fadein 3s;*/
 	cursor: default;
@@ -32,11 +31,6 @@ body, html {
 	text-decoration: none;
 	color: white;
 }
-
-/*.container a:hover{
-	color: #ffd3a5;
-	transform: scale(1.5);
-}*/
 
 .container h3{
 	text-align: center;
