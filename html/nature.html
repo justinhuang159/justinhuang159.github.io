@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Justin Huang Urban/Street</title>
+	<link rel="stylesheet" href="../css/headerfooter.css">
+	<link rel="stylesheet" href="../css/nature.css">
+	<link rel="stylesheet" href="../css/bootstrap.css">
+	<link rel="stylesheet" href="../css/lightbox.css">
+	<meta name = "description" content = "This is Justin Huang's personal portfolio website.">
+	<meta name = "keywords" content = "HTML, CSS, Portfolio, Photography, Wireframe">
+	<meta name = "author" content = "Justin Huang | Web_Dev_18">
+	<link href="https://fonts.googleapis.com/css?family=Anton|Roboto+Condensed|Fjalla+One" rel="stylesheet">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+	<style>
+		.navbar{
+			position: fixed;
+			width: 100%;
+			opacity: 10%;
+			z-index: 2;
+		}
+		.nav-item{
+			width: 10%;
+		}
+		.dropdown-menu{
+			background-color: #424242;
+		}
+		.dropdown-menu a{
+			color: white;
+		}
+		.container-fluid{
+			background-color: #cccccc;
+			padding-top: 8%;
+			margin: 0 auto;
+		}
+		.nature-image{
+			text-align: center;
+			padding: 25px;
+			z-index: 0;
+		}
+	</style>
+</head>
+<body>
+<!-- 		<header>
+		<h1>
+			<li><a href="index.html">JUSTIN HUANG</li>
+		</h1>
+		<nav>
+			<ul>
+				<div class='dropdown'>
+					<span><li><a href="portfolio.html">PORTFOLIO</a></li></span>
+					<div class='dropdown-content'>
+						<li><a href="portraits.html">PORTRAITS</a></li>
+						<li><a href="landscapes.html">LANDSCAPE</a></li>
+						<li><a href="nature.html">NATURE</a></li>
+					</div>
+				</div>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+			</ul>
+		</nav>
+	</header> -->
+
+	<header>
+		<nav class="navbar navbar-dark bg-dark">
+		  <a class="navbar-brand" href="index.html">Justin Huang</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+		    <ul class="navbar-nav">
+		      <li class="nav-item dropdown">
+		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          Portfolio
+		        </a>
+		        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+		          <a class="dropdown-item" href="portraits.html">Portraits</a>
+		          <a class="dropdown-item" href="landscapes.html">Landscapes</a>
+		          <a class="dropdown-item" href="nature.html">Nature</a>
+		        </div>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="about.html">About</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="contact.html">Contact</a>
+		      </li>
+		    </ul>
+		  </div>
+		</nav>
+	</header>
+	<div class="container-fluid">
+		<div class="gallery">
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 nature-image">
+					<a href="../img/nature/nature1.jpg" data-lightbox="Nature">
+						<img src="../img/nature/nature1.jpg" width=100% heigt=auto class="img-thumbnail"/>
+					</a>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 nature-image">
+					<a href="../img/nature/nature2.jpg" data-lightbox="Nature">
+						<img src="../img/nature/nature2.jpg" width=100% heigt=auto class="img-thumbnail"/>
+					</a>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 nature-image">
+					<a href="../img/nature/nature3.jpg" data-lightbox="Nature">
+						<img src="../img/nature/nature3.jpg" width=100% heigt=auto class="img-thumbnail"/>
+					</a>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 nature-image">
+					<a href="../img/nature/nature4.jpg" data-lightbox="Nature">
+						<img src="../img/nature/nature4.jpg" width=100% heigt=auto class="img-thumbnail"/>
+					</a>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 nature-image">
+					<a href="../img/nature/nature5.jpg" data-lightbox="Nature">
+						<img src="../img/nature/nature5.jpg" width=100% heigt=auto class="img-thumbnail"/>
+					</a>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 nature-image">
+					<a href="../img/nature/nature6.jpg" data-lightbox="Nature">
+						<img src="../img/nature/nature6.jpg" width=100% heigt=auto class="img-thumbnail"/>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<footer>
+		<a href="#" class="fa fa-facebook"></a>
+		<a href="#" class="fa fa-instagram"></a>
+		<a href="#" class="fa fa-linkedin"></a>
+		<p>&copy; Copyright 2018 Justin Huang</p>
+	</footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/dojo/1.13.0/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/lightbox-plus-jquery.min.js"></script>
+</html>

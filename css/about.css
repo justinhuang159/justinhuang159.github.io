@@ -1,0 +1,47 @@
+body, html {
+    height: 100%;
+	margin: 0;
+
+}
+.container-fluid { 
+    background-image: url("../img/books.jpg");
+	height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;	
+    margin: 0 auto;
+    list-style-type: none;
+	display: inline-block;
+	padding-left: 50px;
+}
+
+.container-fluid img{
+	float: left;
+	width: 25%;
+	border-radius: 10%;
+	margin: 30px;
+	opacity: 50%;
+}
+
+.container-fluid h1{
+	padding-left: 50px;
+	color: white;
+}
+
+.container-fluid p{
+	color: white;
+	font-size: 17px;
+}
+
+#headshot{
+    /*box-shadow: 5px 10px 8px #2b2b2b;*/
+}
+.h_line { 
+	color: white;
+	font-size: 20px;
+	margin-top: -15px;
+
+}
+.text{
+	width: 88%;
+}
