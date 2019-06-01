@@ -69,7 +69,12 @@ html{
     border: 0.1rem solid rgb(100, 255, 218);
     border-radius: 10%;
 }
-
+#resume-buttom:hover{
+    background-color: rgb(100, 255, 218);
+    color: rgb(10, 25, 47);
+    transition: color 0.5s ease;
+    transition: background-color 0.5s ease;
+}
 /* about */
 #about{
     padding-top: 10%;
@@ -108,12 +113,20 @@ html{
 #work-title{
     color: #E6F1FF;
 }
+.card:hover{
+    transform: translateY(-0.5rem);
+    transition: transform 0.5s ease;
+}
 .card-content{
     background-color: #293d5a;
-    border-top: .2rem solid rgb(100, 255, 218);
+    border-top: .25rem solid rgb(100, 255, 218);
 }
 #card-title{
     color: #E6F1FF;
+}
+#card-title a:hover{
+    /* border-bottom: .2rem solid rgb(100, 255, 218); */
+    color: rgb(100, 255, 218);
 }
 .content{
     color: #8892B0;
