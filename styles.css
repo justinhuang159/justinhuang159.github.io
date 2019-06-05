@@ -39,7 +39,7 @@ html{
     text-align: center;
 }
 .profile img{
-    max-width: 25%;
+    max-width: 15em;
     height: auto;
     border-radius: 50%;
 
@@ -50,12 +50,6 @@ html{
 }
 #school {
     text-align: center;
-    color: #8892B0;
-}
-.description {
-    text-align: center;
-    margin: auto;
-    width: 50%;
     color: #8892B0;
 }
 #resume{
@@ -84,8 +78,10 @@ html{
     font-size: 200%;
     color: #E6F1FF;
 }
-
-.about-description{
+.description {
+    /* text-align: center; */
+    margin: auto;
+    /* width: 50%; */
     color: #8892B0;
 }
 #about ul li::before{
@@ -93,7 +89,6 @@ html{
     position: absolute;
     left: 0px;
     color: rgb(100, 255, 218);
-    line-height: 20px;
 }
 #about-list{
     position: relative;
@@ -104,6 +99,23 @@ html{
     color: #8892B0;
     padding-bottom: 10px;
 }
+.icon{
+    background-color: rgb(100, 255, 218);
+    border-radius: 50%;
+    color: rgb(10, 25, 47);
+}
+.icon-titles{
+    color: #E6F1FF;
+    margin-top: 0.30rem;
+}
+.social-link{
+    color: #E6F1FF;
+}
+.social-link:hover{ 
+    color: rgb(100, 255, 218);
+    transition: color 0.7s ease;
+    /* color: #8892B0; */
+}
 
 /* work */
 #work{
@@ -112,10 +124,15 @@ html{
 }
 #work-title{
     color: #E6F1FF;
+    text-align: center;
 }
 .card:hover{
     transform: translateY(-0.5rem);
     transition: transform 0.5s ease;
+}
+.card:hover > .card-content { 
+    background-color: #1a2a44;
+    transition: background-color 0.5s ease; 
 }
 .card-content{
     background-color: #293d5a;
@@ -159,7 +176,6 @@ input[type=submit] {
     cursor: pointer;
     border-radius: 5%;
 }
-
 input[type=submit]:hover {
     opacity: 0.6;
 }

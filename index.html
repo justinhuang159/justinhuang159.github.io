@@ -6,6 +6,7 @@
 	<meta name = "description" content = "Justin Huang's personal portfolio website.">
 	<meta name = "keywords" content = "HTML, CSS, Portfolio, Wireframe">
 	<meta name = "author" content = "Justin Huang">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css">
 	<link rel="stylesheet" href="styles.css">
 	<script src="https://kit.fontawesome.com/2a7bbbbcb6.js"></script>
@@ -17,7 +18,7 @@
 		</div>
 		<div id="navbar" class="navbar-menu">
 			<div class="navbar-end">
-				<a id="nav-top" class="navbar-item" href="#top">Home</a>
+				<a id="nav-top" class="navbar-item" href="#main">Home</a>
 				<a id="nav-about" class="navbar-item" href="#about">About Me</a>
 				<a id="nav-work" class="navbar-item" href="#work">Work</a>
 				<a id="nav-contact" class="navbar-item" href="#contact">Contact</a>
@@ -32,40 +33,114 @@
 				<img src="img/headshot.jpg"> 
 			</div>
 			<h1 class="title is-1" id="intro">
-				Hi, I'm Justin
+				Hi, I'm Justin.
 			</h1>
-			<h6 class="subtitle is-6" id="school">
-				Undergraute Student At New York University
-			</h3>
-			<p class="description">
-				I'm an undergraduate student pursuing a degree in Computer Science with an minor in Integrate Digital Media.
-			</p>
-			<h1 class="title is-5" id="resume">
-				<a id="resume-buttom" href="JustinHuangResume.pdf">Resume</a>
-			</h1>
+			<h5 class="subtitle is-5" id="school">
+				Undergraduate Computer Science Student at NYU
+			</h5>
+			<h5 class="title is-5" id="resume">
+				<a id="resume-buttom" href="JustinHuangResume.pdf">Resumé</a>
+			</h5>
 		</section>
 		<section id="about">
-			<h3 id="about-title" class="title is-3 header">Some Things About Me:</h2>
-			<ul id="about-list">
-				<li>
-						Location: New York City, New York
-				</li>
-				<li>
-						Education: New York University Tandon School of Engineering
-				</li>
-				<li>
-						Languages: Python, C++, HTML, CSS, JavaScript, SQL
-				</li>
-				<li>
-						Technologies: Restful APIs, GIT, SQL Databses, NoSQL Databses
-				</li>
-				<li>
-						Hobbies: Photography & Videography, Basketball, Food, Travel
-				</li>
-			</ul>
+			<h3 id="about-title" class="title is-3 header">Some Things About Me:</h3>
+			<div class=columns>
+				<div class="column">
+					<p class="description">
+						I'm an undergraduate student studying Computer Science at New York University with experience working with RESTful APIs with Python and JavaScript, 
+						databases including MySQL, PostgreSQL, MongoDB, and MariaDB, and front-end design using frameworks such as Bootstrap and React Native and languages such as HTML, CSS, and JavaScript.
+						I'm passionate about how technology surrounds our day to day lives and creates easier, more efficient means of interconnectivity. Scroll down to learn more about me 
+						or get in touch and say hi! 
+					</p>
+					<br>
+					<p class="description">
+						Here's a list of technologies I've worked with:
+					</p>
+					<br>
+					<ul id="about-list">
+						<li>
+								Back-end: Python, C++, C, JavaScript, Swift
+						</li>
+						<li>
+								Front-end: HTML, CSS, JavaScript, Bootstrap, React Native
+						</li>
+						<li>
+								Databases: MySQL, PostgreSQL, ElasticSearch, MongoDB, MariaDB
+						</li>
+						<li>
+								Other: Restful APIs, GIT, Web Scraping
+						</li>
+						<li>
+								Design: AutoCAD, PhotoShop, LightRoom, Final Cut Pro, Windows Premiere
+						</li>
+					</ul>
+				</div>
+				<div class="column">
+					<div class="columns">
+						<div class="column">
+							<span class="icon is-left is-large">
+									<i class="fas fa-map-marker-alt fa-2x"></i>
+							</span>
+						</div>
+						<div class="column is-11">
+							<h4 class="title is-4 icon-titles">
+								New York City, NY
+							</h4>
+						</div>
+					</div>
+					<div class="columns">
+						<div class="column">
+							<span class="icon is-left is-large">
+								<i class="fas fa-university fa-2x"></i>
+							</span>
+						</div>
+						<div class="column is-11">
+							<h4 class="title is-4 icon-titles">
+								New York University 
+							</h4>
+						</div>
+					</div>
+					<div class="columns">
+						<div class="column">
+							<span class="icon is-left is-large">
+								<i class="fas fa-envelope fa-2x"></i>
+							</span>
+						</div>
+						<div class="column is-11">
+							<h4 class="title is-4 icon-titles">
+								justinhuang159@gmail.com
+							</h4>
+						</div>
+					</div>
+					<div class="columns">
+						<div class="column">
+							<span class="icon is-left is-large">
+								<i class="fab fa-github fa-2x"></i>
+							</span>
+						</div>
+						<div class="column is-11">
+							<h4 class="title is-4 icon-titles">
+								<a class="social-link" href="https://github.com/justinhuang159">github.com/justinhuang159</a>
+							</h4>
+						</div>
+					</div>
+					<div class="columns">
+						<div class="column">
+							<span class="icon is-left is-large">
+								<i class="fab fa-linkedin-in fa-2x"></i>
+							</span>
+						</div>
+						<div class="column is-11">
+							<h4 class="title is-4 icon-titles">
+								<a class="social-link" href="https://linkedin.com/in/justinhuang159">linkedin.com/in/justinhuang159</a>
+							</h4>
+						</div>
+					</div>
+				</div>
+			</div>	
 		</section>
 		<section id="work">
-				<h3 id="work-title" class="title is-3 header">Some Things I've Worked On:</h3>
+				<h3 id="work-title" class="title is-3 header">Some Things I've Worked On</h3>
 				<div class="columns">
 					<div class="column">
 						<a href="https://github.com/justinhuang159/finstagram"> 
@@ -76,7 +151,7 @@
 									</figure>
 								</div>
 								<div class="card-content">
-									<div class="media">
+									<div class="media has-icons-right">
 										<p id="card-title" class="title is-4">Finstagram</p>
 									</div>
 									<div class="content">Instagram imitation web application for uploading and sharing photos. Created using MySQL and Python Flask</div>
